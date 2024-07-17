@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+    @font-face {
+        font-family: 'Turing';
+        src: url(./fonte/HackbotFreeTrial.otf) format('opentype'); 
+        font-weight: normal;
+    }
+
+
+:root{
+    --cor1: #020E02;
+    --cor2: #005200;
+    --cor3: #009400; 
+    --font-padrao: arial, verdana, sans-serif;
+    --font-destque: "Anton SC", sans-serif;
+    --font-Turing: 'Turing', cursive;
+}
+
+*{margin: 0px; padding: 0%;}
+
+body{
+    background-color: var(--cor2);
+    
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: rgb(15, 15, 15);
+    padding: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+div.esquerda{
+    display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+
+div.esquerda >p{
+    font-family: var(--font-destque);
+    font-size: 2em;
+    text-shadow: 5px 5px 5px black;
+}
+
+div.fora > h1{
+    font-size: 2em;
+}
+
+main h1{
+    font-family: var(--font-Turing);
+    color: #009400;
+    padding: 5px;
+}
+
+main p{
+    font-family: var(--font-padrao);
+    color: white;
+    padding: 5px;
+}
+
+main h2{
+    font-family: var(--font-Turing);
+    color: #009400;
+    padding: 5px;
+}
+
+main img.kid{
+    width: 80%;
+}
+
+
+
+header{
+    background-color: var(--cor1);
+    min-height: 100px;
+    padding-top: 20px;
+}
+
+header > h1{
+    
+    font-family: var(--font-destque);
+    color: #009400;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 5px 5px black;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: auto;
+
+}
+
+nav{
+    background-color: #041a04;
+    padding: 5px;
+}
+
+nav > a{
+    color: white;
+    font-family: var(--font-destque);
+    text-decoration: none;
+    padding: 10px;
+    margin: 25px;
+
+}
+
+nav > a:hover{
+    background-color: #009400;
+    transition-duration: 1s;
+}
+
+footer{
+    background-color: bisque;
+}
+
+footer > p{
+    position: center;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-family: var(--font-Turing);
+    text-align: center;
+}
+
+div.video{
+    
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width:90% ;
+    height:90% ;
+}
+

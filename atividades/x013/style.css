@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightpink;
+    font-size: 20px;
+
+}
+h1 {
+color: aqua;
+
+}
+h2{
+
+color: darkblue;
+}
+p{
+color: crimson;
+
+}

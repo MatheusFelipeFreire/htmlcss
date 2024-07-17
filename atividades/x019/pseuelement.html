@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento Pseu</title>
+    <style>body{
+        font-family: Arial, Helvetica, sans-serif;
+        
+    } 
+    a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:visited{
+        color: darkred;
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    a:active{
+        color: yellow;
+    }
+    .Element::before{
+        content: '[Siga lá<3]'
+    }
+    .Element::after {
+        content:'[Porfavozinho<3]' ;
+    }
+    </style>
+</head>
+<body>
+    <h1>LINKS MEUS <3</h1>
+   <ul>
+    <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/desafios/modulo-01/d009/desafio-videos.pdf">RepositóriGithub</a></li>
+    <li><a href="https://www.youtube.com/@freddyzoeiro5287">Canal do Youtube</a></li>
+    <a href="https://www.instagram.com/matheus_tutuofc/" class="Element">
+        <li>Instagram</li>
+    </a>
+   </ul> 
+</body>
+</html>
