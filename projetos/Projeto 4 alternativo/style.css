@@ -22,6 +22,7 @@
 
 body{
     background-color: var(--cor2);
+    flex-direction: column;
     
 }
 
@@ -44,6 +45,7 @@ div.esquerda >p{
     font-family: var(--font-destque);
     font-size: 2em;
     text-shadow: 5px 5px 5px black;
+   
 }
 
 div.fora > h1{
@@ -78,12 +80,13 @@ header{
     background-color: var(--cor1);
     min-height: 100px;
     padding-top: 20px;
+    padding: 10px;
 }
 
 header > h1{
     
     font-family: var(--font-destque);
-    color: #009400;
+    color: #015e0d;
     text-align: center;
     font-size: 3em;
     text-shadow: 5px 5px black;
@@ -102,7 +105,8 @@ header > p{
 
 nav{
     background-color: #041a04;
-    padding: 5px;
+    padding: 10px;
+    
 }
 
 nav > a{
@@ -149,3 +153,33 @@ div.video > iframe{
     height:90% ;
 }
 
+div.esquerda{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+
+    div.esquerda > img{
+        width: 200px;
+    }
+
+    div.esquerda > p{
+        font-family: var(--font-destque);
+        font-size: 1.1em;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    nav > a{
+        color: white;
+    font-family: var(--font-destque);
+    text-decoration: none;
+    padding: 5px;
+    margin: 25px;
+    }
+
+    nav > a:hover{
+        padding: 10px;
+    }
+}
