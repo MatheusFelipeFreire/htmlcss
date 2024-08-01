@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 2 parte 4</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th.zero{
+            background-color: gray;
+            color: White;
+        }
+        td.zero{
+            background-color: gray;
+            color: White;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="zero" rowspan="2">Área</th>
+            <th class="zero" rowspan="2">Diciplinas</th>
+            <th class="zero" colspan="2">Notas</th>
+            <th class="zero" rowspan="2">Média</th>
+        </tr>
+        <tr>
+            <th class="zero">Nota 1</th>
+            <th class="zero">Nota 2</th>
+        </tr>
+        <tr>
+            <th  rowspan="4">Exatas</th>
+            <td>Matematica</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Fisica</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Quimica</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Biologia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr><th colspan="4" class="zero">Média de Exatas</th>
+        <td class="zero">0.0</td></tr>
+        <tr>
+            <th rowspan="2">Humanas</th>
+            <td>Historia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <th colspan="4" class="zero">Média de Jumanas</th>
+            <td class="zero">0.0</td>
+        </tr>
+    </table>
+</body>
+</html>
