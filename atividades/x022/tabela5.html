@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas colgroup</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.oi{
+            background-color: aqua;
+        }
+        col.io{
+            background-color: gray;
+        }
+        col.casa{
+            background-color: green;
+        }
+        col.hotel{
+            background-color: blue;
+        }
+        col.goku{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <table>
+        <colgroup>
+            <col class="oi">
+            <col class="io">
+            <col class="casa">
+            <col class="hotel">
+            <col class="goku">
+            </colgroup>
+        <tr>
+            <th>Participantes</th>
+            <th>Jogos</th>
+            <th>Vitorias</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+        </tr>
+        <tr>
+            <th>Meninos</th>
+            <td>10</td>
+            <td>7</td>
+            <td>3</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <th>Meninas</th>
+            <td>10</td>
+            <td>3</td>
+            <td>7</td>
+            <td>9</td>
+        </tr>
+    </table>
+</body>
+</html>
