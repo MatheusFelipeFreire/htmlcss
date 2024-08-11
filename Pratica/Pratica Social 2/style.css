@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    background: url('pacote-d013/imagens/fundo-madeira.jpg') no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+section#telefone{
+    background: url('pacote-d013/imagens/frame-iphone.png') no-repeat;
+    width: 310px;
+    height: 625px;
+    position: absolute;
+    left: 350px;
+}
+
+section#Redes img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+section#Redes{
+    text-align: right;
+
+}
+
+iframe{
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    width: 265px;
+    height: 470px;
+}
+
