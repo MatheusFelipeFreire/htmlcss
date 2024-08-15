@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>FOrmulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iname">Nome</label>
+            <input type="text" name="name" id="iname" placeholder="Escreva aqui" >
+        </p>
+        <p>
+            <label for="imedia" >Media</label>
+            <input type="number" name="media" id="imedia" required value="0" max="10">
+        </p>
+        <p>
+            <label for="ical">Periodo letivo</label>
+            <input type="month" name="calendario" id="ical" required value="2024-08">
+        </p>
+        <p>
+            <label for="idata">Periodo letivo</label>
+            <input type="date" name="data" id="idata" value="2024-08-14">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="resetar">
+        </p>
+    </form>
+</body>
+</html>
